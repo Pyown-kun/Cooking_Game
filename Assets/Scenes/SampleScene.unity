@@ -400,6 +400,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4852248773684311575, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448742800890231589, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: _tomatoPrefeb
+      value: 
+      objectReference: {fileID: 7864540144237623496, guid: b200d1caff4f02449890b7d919259f35, type: 3}
+    - target: {fileID: 6448742800890231589, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: _kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3de9b6aeaa0086341ad625d22bf4548f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -436,7 +448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
-  _rotationSpeed: 300
+  _rotationSpeed: 500
   _gameInput: {fileID: 1801587454}
 --- !u!143 &525416795
 CharacterController:
@@ -1071,6 +1083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 1773811106297806170, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2447674032119936108, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1111,6 +1127,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4852248773684311575, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448742800890231589, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: _tomatoPrefeb
+      value: 
+      objectReference: {fileID: 7864540144237623496, guid: 160398428ae4d0042a5e5d0b7803a028, type: 3}
+    - target: {fileID: 6448742800890231589, guid: e5e1ccbdf773534498ac84a5a140dd2f, type: 3}
+      propertyPath: _kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: add7cb58dd7b78645bca1471d3ec3206, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
