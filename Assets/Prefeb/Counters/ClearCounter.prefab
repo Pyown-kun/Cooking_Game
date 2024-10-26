@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a79d6b7541dc40accc8b0b4e7489c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tomatoPrefeb: {fileID: 0}
+  _kitchenObjectSO: {fileID: 0}
   _counterTopPoint: {fileID: 4229665793447182515}
 --- !u!1 &2580325671174987306
 GameObject:
@@ -275,5 +275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d674a88285b204096a17268c02a7d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clearCounter: {fileID: 6448742800890231589}
-  _visualGameObject: {fileID: 659968126282568178}
+  _baseCounter: {fileID: 6448742800890231589}
+  _visualGameObjectArray:
+  - {fileID: 659968126282568178}
